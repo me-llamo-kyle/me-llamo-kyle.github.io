@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kyle Chen - Personal Website</title>
-    <link rel="stylesheet" href="../static/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Kyle Connelly | Theoretical Physicist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        <div class="container">
+    <header>
+        <nav>
             <div class="logo">KC</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
@@ -17,69 +18,89 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </div>
-    </nav>
-
-    <header id="home">
-        <div class="container">
-            <h1>Kyle Chen</h1>
-            <h2>Software Engineer & Web Developer</h2>
-        </div>
+        </nav>
     </header>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I'm a passionate software engineer with expertise in web development, machine learning, and creating innovative solutions.</p>
-            <div class="skills">
-                <h3>Skills</h3>
-                <div class="skill-tags">
-                    <span class="tag">Python</span>
-                    <span class="tag">JavaScript</span>
-                    <span class="tag">React</span>
-                    <span class="tag">Machine Learning</span>
-                    <span class="tag">Web Development</span>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Kyle Connelly</h1>
+                <h2>Theoretical Physicist and Software Engineer</h2>
+                <p>Theoretical physicist by training, software engineer by passion. I explore the intersection of code and cosmos.</p>
+                <div class="social-links">
+                    <a href="https://github.com/me-llamo-kyle" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fab fa-twitter"></i></a>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>Personal Website</h3>
-                    <p>A responsive personal portfolio website showcasing my skills and projects.</p>
-                    <a href="#" class="project-link">View Project</a>
-                </div>
-                <div class="project-card">
-                    <h3>Machine Learning Model</h3>
-                    <p>Developed a predictive machine learning model for data analysis.</p>
-                    <a href="#" class="project-link">View Project</a>
+        <section id="about" class="about">
+            <div class="section-content">
+                <h2>About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>I'm a theoretical physicist specializing in quantum mechanics and quantum computing. I'm passionate about building software that harnesses the power of quantum computing to solve complex problems.</p>
+                    </div>
+                    <div class="skills">
+                        <h3>Technologies I Work With</h3>
+                        <div class="skill-grid">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Git</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <form>
-                <input type="text" placeholder="Name" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </section>
+        <section id="projects" class="projects">
+            <div class="section-content">
+                <h2>Featured Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Personal Portfolio</h3>
+                        <p>Responsive personal website showcasing skills and projects, built with modern web technologies.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/me-llamo-kyle/me-llamo-kyle.github.io" target="_blank">View Code</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Machine Learning Dashboard</h3>
+                        <p>Interactive web application for visualizing and analyzing machine learning model performance.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/me-llamo-kyle/ml-dashboard" target="_blank">View Code</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Productivity Tracker</h3>
+                        <p>Full-stack application to track and analyze personal productivity metrics using advanced analytics.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/me-llamo-kyle/productivity-tracker" target="_blank">View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="section-content">
+                <h2>Get In Touch</h2>
+                <p>Interested in collaborating or have a project in mind? Feel free to reach out!</p>
+                <a href="mailto:kyle.connelly@example.com" class="contact-button">Send an Email</a>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Kyle Chen. All rights reserved.</p>
-        </div>
+        <p>&copy; 2025 Kyle Connelly. All Rights Reserved.</p>
     </footer>
 
-    <script src="../static/js/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
