@@ -1,0 +1,1 @@
+This was an early experiment in vibe coding that isn't currently maintained. I found that vibe coding just wasn't giving me the level of control that I wanted. Maybe at some point I'll revive this and make a proper website.
